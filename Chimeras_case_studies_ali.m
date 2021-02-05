@@ -1,7 +1,7 @@
 % scaled up Xinzhu's code 
 % fix plots
 
-n = 10;
+n = 100;
 
 % visualise graph
 figure(1)
@@ -19,30 +19,34 @@ hold off;
 
 % start code
 t0 = 0;
-tfinal = 1000;
+tfinal = 10000;
 
 % initial conditions
-y0_vec = randi([0 5],1,2*n);
+y0_vec = randi([0 5],1,2*n); 
 
-[t,y] = ode45('rm_model',[t0,tfinal],y0_vec);
+[t,y] = ode45('rm_model_ali',[t0,tfinal],y0_vec);
 
-figure(2)
-for i = 1:n
-    subplot(1,n,i)
-    plot(t,y(:,i),t,y(:,i+1))
-    ylabel("pred/prey")
-    xlabel("time")
-    title("Node " + string(i))
-end
-hold off;
+% figure(2)
+% for i = 1:n
+%     subplot(1,n,i)
+%     plot(t,y(:,i),t,y(:,i+1))
+%     ylabel("pred/prey")
+%     xlabel("time")
+%     title("Node " + string(i))
+% end
+% hold off;
 
 % overwriting figure 1 for some reason
-figure(3)
-for i=1:tfinal
-    imagesc(y(i,1:n));
-    colorbar;
-    caxis([0 5]);
-    pause(.01)
-end
 
+% figure(3)
+% for i=1:100:tfinal
+%     imagesc(y(i,1:n));
+%     %colorbar;
+%     %caxis([0 5]);
+%     title("time = " + string(i))
+%     pause(.001)
+% end
+
+imagesc(y(5000:tfinal,1:n));
+colorbar
 

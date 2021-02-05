@@ -25,5 +25,6 @@ function dy = rm_model(t,y)
     u = y(1:n);
     v = y(n+1:2*n);
     dy = [f(u,v);g(u,v)];
+    
 end
 
