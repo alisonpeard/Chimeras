@@ -45,7 +45,7 @@ ylabel('time')
 xlabel('node number')
 title('spatiotemporal dynamics of 2015 RM model network')
 timestamp = string(datestr(datetime('now')));
-saveas(gcf,'st plot 2015 RM' + graph_type + timestamp,'jpeg')
+saveas(gcf,'plots/st plot 2015 RM' + graph_type + timestamp,'jpeg')
 
 %% Using simple RM model with same initial conditions
 k = 2; sigma = 1e-1;
@@ -60,4 +60,4 @@ ylabel('time')
 xlabel('node number')
 title('spatiotemporal dynamics of simple RM model network, \{k,\sigma\} = \{' + string(k) + ',' + string(sigma) + '\}')
 timestamp = string(datestr(datetime('now')));
-saveas(gcf,'plot simple RM' + graph_type + timestamp,'jpeg')
+saveas(gcf,'plots/plot simple RM' + graph_type + timestamp,'jpeg')
