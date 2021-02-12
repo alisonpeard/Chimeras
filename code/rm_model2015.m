@@ -1,7 +1,7 @@
-% adapting Xinzhu's code here
 % parameters from Dutta & Banerjee, 2015
+% find way to introduce nonlocal coupling by varying P
 
-function dy = rm_model_ali(t,y)
+function dy = rm_model2015(t,y)
     
     n = 0.5*length(y);
     dy = zeros(2*n,1); % (x y)T for n nodes
@@ -14,14 +14,6 @@ function dy = rm_model_ali(t,y)
     B = 0.16;
     beta = 0.5;
     v0 = y(n+1:end);
-    
-    % A a lattice without self-loops
-    % prob = 1 for a lattice
-%     prob = 1;
-%     A = rand(n,n)<prob; % graph with 90% links
-%     A  = triu(A) - diag(diag(triu(A))) + triu(A)'; % flip upper triangle over to make symmetric
-%     A = A - diag(diag(A)); % omit self-loops
-%     A = [0 1 0 1; 1 0 1 0; 0 1 0 1; 1 0 1 0]; 4 x 4 lattice
     
     A = sparse(make_chain(n));
     
