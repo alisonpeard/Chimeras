@@ -1,7 +1,7 @@
 % parameters from Dutta & Banerjee, 2015
 % find way to introduce nonlocal coupling by varying P
 
-function dy = rm_model2015(t,y)
+function dy = rm_model2015(t,y, graph_type, P)
     
     n = 0.5*length(y);
     dy = zeros(2*n,1); % (x y)T for n nodes
@@ -15,7 +15,20 @@ function dy = rm_model2015(t,y)
     beta = 0.5;
     v0 = y(n+1:end);
     
-    A = sparse(make_chain(n));
+    % define network graph
+    if graph_type == "chain"
+        A = make_chain(n);
+    elseif graph_type == "nonloc_chain"
+        A = make_chain(n,P);
+    elseif graph_type == "lattice"
+        A = glattice(n);
+    elseif graph_type == "rand"
+        prob = P;
+        A = rand(n,n)<prob;
+        A  = triu(A) - diag(diag(triu(A))) + triu(A)'; % flip upper triangle over to make symmetric
+        A = A - diag(diag(A)); % omit self-loops
+    end
+    A = sparse(A);
     
     % distances
     cols = ones(n,1)*v0';

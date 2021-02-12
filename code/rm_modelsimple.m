@@ -1,4 +1,4 @@
-function dy = rm_modelsimple(t,y,k, sigma, graph_type)
+function dy = rm_modelsimple(t,y,k, sigma, graph_type, P)
     
     n = 0.5*length(y);
     dy = zeros(2*n,1); % (x y)T for n nodes
@@ -10,18 +10,21 @@ function dy = rm_modelsimple(t,y,k, sigma, graph_type)
     beta = 1;
     v0 = y(n+1:end);
     
+    % define network graph
     if graph_type == "chain"
         A = make_chain(n);
+    elseif graph_type == "nonloc_chain"
+        A = make_chain(n,P);
     elseif graph_type == "lattice"
-        error('no lattice defined yet')
-    elseif graph_type == "rand90"
-        prob = 0.9;
+        A = glattice(n);
+    elseif graph_type == "rand"
+        prob = P;
         A = rand(n,n)<prob;
         A  = triu(A) - diag(diag(triu(A))) + triu(A)'; % flip upper triangle over to make symmetric
         A = A - diag(diag(A)); % omit self-loops
     end
+    A = sparse(A);
 
-    
     % distances
     cols = ones(n,1)*v0';
     rows = v0*ones(1,n);

@@ -1,19 +1,18 @@
 function A = make_chain(n, P)
+% P > 0 for nonlocal coupling
+% nonlocal coupling to create graph in Dutta and Banerjee (2015) paper
 
     if ~exist('P','var')
         P=1;
     end
 
-    A = diag(ones(n-1,1),1);
-    A = A + diag(ones(n-1,1),-1);
-    A(n,1) = 1;
-    A(1,n) = 1;
+    A = zeros(n,n);
+    for i = 1:P
+        A = A + diag(ones(n-i,1),i);
+        A = A + diag(ones(n-i,1),-i);
+        A = A + diag(ones(i,1),n-i);
+        A = A + diag(ones(i,1),i-n);
+    end
     
 end
 
-
-A = zeros(n,n);
-A = A + diag(ones(n-i,i),i)
-for i = 1:3
-    diag(ones(n-i,i),i)
-end
