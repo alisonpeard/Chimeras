@@ -1,9 +1,14 @@
 function A = make_chain(n, P)
-% P > 0 for nonlocal coupling
+% P = 1 for local coupling, P=n/2 for global coupling
+% P=(0,n/2) for nonlocal coupling
 % nonlocal coupling to create graph in Dutta and Banerjee (2015) paper
 
     if ~exist('P','var')
         P=1;
+    end
+    
+    if P>n/2
+        error("coupling range must be less than N/2 = " + string(n/2));
     end
 
     A = zeros(n,n);

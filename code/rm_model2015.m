@@ -7,10 +7,10 @@ function dy = rm_model2015(t,y, graph_type, P)
     dy = zeros(2*n,1); % (x y)T for n nodes
     
     r = 0.5;
-    k = 0.5;
+    k = 0.5; % carrying capacity
     m = 1;
     c =0.2;
-    sigma = 1.7;
+    sigma = 1.7; % coupling strength
     B = 0.16;
     beta = 0.5;
     v0 = y(n+1:end);

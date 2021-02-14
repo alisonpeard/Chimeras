@@ -1,4 +1,5 @@
 function dy = rm_modelsimple(t,y,k, sigma, graph_type, P)
+% u = prey, v = predator
     
     n = 0.5*length(y);
     dy = zeros(2*n,1); % (x y)T for n nodes

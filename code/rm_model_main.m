@@ -1,8 +1,8 @@
-% Exploring Rosenzweig-Macarthur predator-prey mo
-% how to change y-axis on imagesc
-% check which is prey which is pred
+% Exploring Rosenzweig-Macarthur predator-prey model
+% works for random graphs, chains with local-> nonlocal -> global coupling,
+% and lattices (andrew's code)
 
-n = 4;    % number of nodes
+n = 100;  % number of nodes
 graph_types = ["chain","nonloc_chain","lattice","rand"];
 graph_type = graph_types(2);
 
@@ -33,51 +33,77 @@ title("graph size n = " + string(n));
 hold off;
 
 
-%% Using simple RM model with same initial conditions
-k = 2; sigma = 1e-1;
+%% simple RM model
+k = 0.5; % prey carrying capacity
+sigma = 1.7; % coupling strength
+
 if graph_type == "nonloc_chain" || graph_type == "rand"
     [t,y] = ode45(@(t,y) rm_modelsimple(t,y, k,sigma, graph_type,P), [t0,tfinal], y0_vec);
 else
     [t,y] = ode45(@(t,y) rm_modelsimple(t,y, k,sigma, graph_type), [t0,tfinal], y0_vec);
 end
 
+% take tail of results
 fin = length(t);
 frac = 0.7;
 start = ceil(frac*fin);
 range = [t(start) t(fin)];
 
-% spatiotemporal plot after fraction of the timesteps
+% spatiotemporal plot for prey and predators for tail of results
 figure(2)
-subplot(2,1,1)
+subplot(3,1,1)
 imagesc(y(start:fin,1:n));
-
 set(gca,'YDir','normal');
 colorbar
 ylabel('time')
-xlabel('node number')
-title('spatiotemporal dynamics of simple RM model network, \{k,\sigma\} = \{' + string(k) + ',' + string(sigma) + '\}')
+xlabel('node index')
+title('temporal prey dynamics of simple RM model network, \{k,\sigma\} = \{' + string(k) + ',' + string(sigma) + '\}')
 
-subplot(2,1,2)
+subplot(3,1,2)
+imagesc(y(start:fin,n+1:end));
+set(gca,'YDir','normal');
+colorbar
+ylabel('time')
+xlabel('node index')
+title('temporal prey dynamics of simple RM model network, \{k,\sigma\} = \{' + string(k) + ',' + string(sigma) + '\}')
+
+% time series of dynamics for node 1 plot
+subplot(3,1,3)
 plot(t(start:fin), y(start:fin,[1, n+1]));
 xlim(range)
 title('Dynamics for node 1')
 xlabel('Time')
 ylabel('Population')
-legend('Plants', 'Herbivores')
+legend('Prey', 'Predator')
 
-% figure(2)
-% for i = 1:length(adj) %plots all n trajectories
-% hold on
-% plot(S(:,2*i-1),S(:,2*i))
-% end
-% xlabel('Plants')
-% ylabel('Herbivores')
-% end
+figure(4)
+% plot standard deviations for each node (see 2015 paper)
+% standard deviation for each prey node
+stdu = zeros(n,1);
+for i = 1:n
+    stdu(i) = sqrt( mean(y(start:fin,i)) - mean(y(start:fin,i))^2  );
+end
+subplot(1,2,1)
+plot(1:n,stdu,'-.')
+xlabel('prey node index')
+ylabel('standard deviation')
 
-timestamp = string(datestr(datetime('now')));
-saveas(gcf,'plots/plot simple RM' + graph_type + timestamp,'jpeg')
+% standard deviation for each pred node
+stdv = zeros(n,1);
+for i = 1:n
+    stdv(i) = sqrt( mean(y(start:fin,i)) - mean(y(start:fin,i))^2  );
+end
+subplot(1,2,2)
+plot(1:n,stdu,'-.')
+xlabel('predator node index')
+ylabel('standard deviation')
 
+% save figure
+%timestamp = string(datestr(datetime('now')));
+%saveas(gcf,'plots/plot simple RM' + graph_type + timestamp,'jpeg')
 
+disp('Press a key to continue')
+pause;
 %% using 2015 paper model
 
 if graph_type == "nonloc_chain" || graph_type == "rand"
