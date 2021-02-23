@@ -40,8 +40,8 @@ hold off;
 
 %% solve simple RM model using ode 45
 
-k = 4; % prey carrying capacity 0.5
-sigma = 0.2; % coupling strength 1.7
+k = 0.5; % prey carrying capacity 0.5
+sigma = 1; % coupling strength 1.7
 
 if graph_type == "nonloc_chain" || graph_type == "rand"
     [t,y] = ode45(@(t,y) rm_modelsimple(t,y, k,sigma, graph_type,P), [t0,tfinal], y0_vec);
@@ -125,5 +125,5 @@ end
 
 classify(prey)
 classify(pred)
-%% Periodicity analysis
+
 

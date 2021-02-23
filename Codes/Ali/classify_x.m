@@ -1,17 +1,27 @@
 function class = classify_x(Y)
 % arg: matrix Y(t,x), t=time, x=node
-% made a function of Xinzhu's code
+% need to add (rough) chaos classifier
+% made a function and edited bits of Xinzhu's code
 
     class = [];
-    TOL1 = 1e-4;
-    TOL2 = 1e-8;
+    TOL1 = 1e-8; % for death states
+    TOL2 = 1e-4; % for differences between nodes
+    [M,N] = size(Y);
     
     % calculate standard deviations
     delta = std(Y);
-    delta_nonzero = Y(find(delta>=TOL1));
+    
+    % removing death states
+    delta_nonzero = delta(find(delta>=TOL1)); 
     N2 = length(delta_nonzero);
     
-    % calculate absolute differences between columns
+    % calculate periodicity of non-death state columns
+    periods = zeros(N,1);
+    for n=1:N
+        periods(n) = findperiod(Y(:,n));
+    end
+    
+    % calculate absolute differences between std of non steady state columns
     diff = zeros(N2,N2);
     for i = 1:N2
         for j = 1:N2
@@ -19,20 +29,25 @@ function class = classify_x(Y)
         end
     end
     
-    if all(abs(Y(end,:)) < TOL1)
-        class = "oscillation death"; %% CHECK
-    elseif any(abs(delta) < TOL2)
-        if all(abs(delta) < TOL2)
-            class = "chimera death"; % CHECK
-        elseif any(diff >= TOL1)
-            class = "amplitude chimera and stable zero steady state"; %%CHECK
+    % If there are any death states: CD / CSOD / AC and death
+    if any(abs(delta) < TOL1)
+        if all(abs(delta) < TOL1)
+            class = "death state";
+        elseif range(delta_nonzero) < TOL2 
+            class = "CSOD"; 
+        elseif range(periods)<TOL2
+            class = "amplitude chimera and death";
         else
-            class = "CSOD"; % CHECK
+            class = "mixed oscillations and death";
         end
-    elseif any(diff >= TOL1)
-        class = "amplitude chimera state";
-    elseif any(diff <= TOL1)
+        
+    % if there are no death states
+    elseif range(delta) < TOL2 % sync state
         class = "synchronized oscillation";
+    elseif range(periods)<TOL2
+        class = "amplitude chimera state";
+    else 
+        class = "full chimera or chaotic system";
     end
 
 end

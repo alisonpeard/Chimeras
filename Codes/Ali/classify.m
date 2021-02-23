@@ -1,5 +1,5 @@
 function class = classify(Y)
-% crude classifier
+% my classifier - a little crude cos doesn't take in correlations etc
 % arg: matrix Y(t,x), t=time, x=node
 
     states = ["death","sync","amplitude chimera or chimera","csod","mixed amplitude chimera and death","chaos"];
