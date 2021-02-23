@@ -4,9 +4,10 @@ function class = classify_x(Y)
 % made a function and edited bits of Xinzhu's code
 
     class = [];
-    TOL1 = 1e-8; % for death states
+    TOL1 = 1e-4; % for death states
     TOL2 = 1e-4; % for differences between nodes
     [M,N] = size(Y);
+    corr_matrix = abs(corr(Y)); % absolute correlation between nodes
     
     % calculate standard deviations
     delta = std(Y);
@@ -29,23 +30,26 @@ function class = classify_x(Y)
         end
     end
     
+    % if nodes are all spatiall correlated there are no chimeras
+    if all(corr_matrix(:,1) > 0.9)
+        class = "synchronised oscillation";
     % If there are any death states: CD / CSOD / AC and death
-    if any(abs(delta) < TOL1)
-        if all(abs(delta) < TOL1)
+    elseif any(abs(delta) <= TOL1)
+        if all(abs(delta) <= TOL1)
             class = "death state";
-        elseif range(delta_nonzero) < TOL2 
+        elseif range(delta_nonzero) <= TOL2
             class = "CSOD"; 
-        elseif range(periods)<TOL2
+        elseif range(periods)<=TOL2
             class = "amplitude chimera and death";
         else
             class = "mixed oscillations and death";
         end
         
     % if there are no death states
-    elseif range(delta) < TOL2 % sync state
+    elseif range(delta) <= TOL2 % sync state
         class = "synchronized oscillation";
-    elseif range(periods)<TOL2
-        class = "amplitude chimera state";
+    elseif range(periods)<=TOL2
+        class = "amplitude chimera";
     else 
         class = "full chimera or chaotic system";
     end
