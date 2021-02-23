@@ -1,7 +1,8 @@
 function class = classify(Y)
+% crude classifier
 % arg: matrix Y(t,x), t=time, x=node
 
-    states = ["death","sync","amp chim/chim","csod","mixed amp chim and death","chaos"];
+    states = ["death","sync","amplitude chimera or chimera","csod","mixed amplitude chimera and death","chaos"];
     
     class = [];
     TOL = 1e-6;
