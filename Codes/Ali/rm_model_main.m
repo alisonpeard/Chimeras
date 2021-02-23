@@ -41,7 +41,7 @@ hold off;
 %% solve simple RM model using ode 45
 
 k = 0.5; % prey carrying capacity 0.5
-sigma = 1; % coupling strength 1.7
+sigma = 1.7; % coupling strength 1.7
 
 if graph_type == "nonloc_chain" || graph_type == "rand"
     [t,y] = ode45(@(t,y) rm_modelsimple(t,y, k,sigma, graph_type,P), [t0,tfinal], y0_vec);
@@ -113,17 +113,22 @@ xlabel('predator node index')
 ylabel('standard deviation')
 
 if all(stdu < TOL )
-    disp('prey is in steady state')
+    disp('some prey is in steady state')
 else
-    disp('prey not in steady state')
+    disp('some prey not in steady state')
 end
 if all(stdv < TOL )
-    disp('predator is in steady state')
+    disp('some predator is in steady state')
 else
-    disp('predator not in steady state')
+    disp('some predator not in steady state')
 end
 
-classify(prey)
-classify(pred)
-
+%% Classifier
+figure(4)
+subplot(1,2,1)
+imagesc(prey)
+title("prey: " + classify_x(prey))
+subplot(1,2,2)
+imagesc(pred)
+title("pred: " + classify_x(pred))
 
