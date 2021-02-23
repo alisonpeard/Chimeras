@@ -40,8 +40,8 @@ hold off;
 
 %% solve simple RM model using ode 45
 
-k = 0.5; % prey carrying capacity
-sigma = 1.7; % coupling strength
+k = 4; % prey carrying capacity 0.5
+sigma = 0.2; % coupling strength 1.7
 
 if graph_type == "nonloc_chain" || graph_type == "rand"
     [t,y] = ode45(@(t,y) rm_modelsimple(t,y, k,sigma, graph_type,P), [t0,tfinal], y0_vec);
@@ -76,7 +76,7 @@ set(gca,'YDir','normal');
 colorbar
 ylabel('time')
 xlabel('node index')
-title('temporal prey dynamics of simple RM model network, \{k,\sigma\} = \{' + string(k) + ',' + string(sigma) + '\}')
+title('temporal pred dynamics of simple RM model network, \{k,\sigma\} = \{' + string(k) + ',' + string(sigma) + '\}')
 
 %% time series of dynamics for node 1 plot
 
@@ -97,25 +97,18 @@ legend('Prey', 'Predator')
 %% plot standard deviations for each prey node, if standard deviation is always less than TOL then assume steady state
 
 figure(3)
-TOL = 1e-4;
+TOL = 1e-6;
 
-stdu = zeros(n,1);
-stdv = zeros(n,1);
-
-for i = 1:n
-    stdu(i) = std(prey(i));
-end
+stdu = std(prey);
 subplot(1,2,1)
 plot(1:n,stdu,'-.')
 xlabel('prey node index')
 ylabel('standard deviation')
 
-for i = n+1:2*n
-    stdv(i) = std(pred(i));
-end
+stdv = std(pred);
 
 subplot(1,2,2)
-plot(1:n,stdu,'-.')
+plot(1:n,stdv,'-.')
 xlabel('predator node index')
 ylabel('standard deviation')
 
@@ -130,9 +123,7 @@ else
     disp('predator not in steady state')
 end
 
-
-disp('Press a key to continue')
-pause;
-
+classify(prey)
+classify(pred)
 %% Periodicity analysis
 
