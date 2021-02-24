@@ -1,6 +1,6 @@
 
 %% random
-num = 100;
+num = 20;
 A = adjacent(num);
 G = graph(A);
 plot(G)
