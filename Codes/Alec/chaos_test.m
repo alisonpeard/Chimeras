@@ -18,11 +18,11 @@ m = 1;
 
 % tfinal - for ode45
 t0 = 0;
-tfinal = 100000;
-tfinal1 = tfinal+50000;
+tfinal = 200000;
+tfinal1 = tfinal+100000;
 
 % fraction of transcient data to disregard for 0-1 test
-thresh = 0;
+thresh = 0.2;
 
 % random initial conditions
 y0 = rand(num*2,1)*0.4;
@@ -35,7 +35,7 @@ sigmavec = [1e-5];
 score = zeros(length(kvec),1);
 
 
-opts = odeset('RelTol',1e-6,'AbsTol',1e-9);
+opts = odeset('RelTol',1e-9,'AbsTol',1e-9);
 opts1 = odeset('RelTol',1e-5,'AbsTol',1e-5);
 S = zeros(length(kvec),length(sigmavec));
 for i = 1:length(kvec)
@@ -47,8 +47,8 @@ for i = 1:length(kvec)
         % RHS function
         func = @(t,y)RM_rhs_1(y,r,m,c,k,sigma,L,num);
         
-        [t,sol] = ode45(func,[t0:0.1:tfinal],y0,opts);
-        [t,sol] = ode45(func,[tfinal tfinal1],sol(end,:),opts1);
+        [t,sol] = ode45(func,[t0:0.1:tfinal],y0,opts1);
+        [t,sol] = ode45(func,[tfinal:0.1:tfinal1],sol(end,:),opts);
         
         % disregarding transcient data
         Len = length(sol);
