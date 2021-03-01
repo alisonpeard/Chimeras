@@ -3,7 +3,7 @@
 % and lattices (using Andrew's code)
 
 %% choose graph type
-
+clear;clc;
 n = 20;  % number of nodes
 graph_types = ["chain","nonloc_chain","lattice","rand"];
 graph_type = graph_types(2);
@@ -12,7 +12,7 @@ t0 = 0;
 tfinal = 10000;
 
 %rng(1)
-y0_vec = randi([0 5],1,2*n); 
+y0_vec = randi([0 0.4],1,2*n); 
 
 %% visualise graph
 

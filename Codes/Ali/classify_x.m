@@ -41,8 +41,6 @@ function class = classify_x(Y)
             class = "CSOD"; 
         elseif range(periods)<=TOL2
             class = "amplitude chimera and death";
-        else
-            class = "mixed oscillations and death";
         end
         
     % if there are no death states
@@ -51,7 +49,7 @@ function class = classify_x(Y)
     elseif range(periods)<=TOL2
         class = "amplitude chimera";
     else 
-        class = "full chimera or chaotic system";
+        class = "quasiperiodic orbits or possible chaotic system (unknown)";
     end
 
 end

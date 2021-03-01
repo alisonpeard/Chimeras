@@ -11,14 +11,14 @@ P = 2;
 t0 = 0;
 tfinal = 10000;
 
-y0_vec = randi([0 5],1,2*n); 
+y0_vec = randi([0 0.4],1,2*n); 
 
 %% loop
 kvec = 0.5:0.5:5; 
 sigpow = -6:-1;
 sigvec = [10.^sigpow 0.5 1 1.5 2];
 
-class_strings = ["synchronised oscillation" "death state" "CSOD" "amplitude chimera and death" "mixed oscillations and death" "amplitude chimera" "full chimera or chaotic system"];
+class_strings = ["synchronised oscillation" "death state" "CSOD" "amplitude chimera and death" "amplitude chimera" "quasiperiodic orbits or possible chaotic system (unknown)"];
 preyclass_matrix = zeros(10,10);
 predclass_matrix = zeros(10,10);
 
@@ -59,8 +59,6 @@ caxis([1 7])
 title("Prey chimera classifications")
 xlabel('sigma-value')
 ylabel('k-value')
-
-
 
 subplot(1,2,2)
 pcolor(predclass_matrix)
