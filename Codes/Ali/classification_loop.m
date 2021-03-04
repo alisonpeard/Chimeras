@@ -18,7 +18,7 @@ kvec = 0.5:0.5:5;
 sigpow = -6:-1;
 sigvec = [10.^sigpow 0.5 1 1.5 2];
 
-class_strings = ["synchronised oscillation" "death state" "CSOD" "amplitude chimera and death" "amplitude chimera" "quasiperiodic orbits or possible chaotic system (unknown)"];
+class_strings = ["synchronised oscillation" "death state" "CSOD" "amplitude chimera and death" "amplitude chimera" "nonperiodic orbits"];
 preyclass_matrix = zeros(10,10);
 predclass_matrix = zeros(10,10);
 

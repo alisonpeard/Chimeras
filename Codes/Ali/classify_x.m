@@ -49,7 +49,7 @@ function class = classify_x(Y)
     elseif range(periods)<=TOL2
         class = "amplitude chimera";
     else 
-        class = "quasiperiodic orbits or possible chaotic system (unknown)";
+        class = "nonperiodic orbits";
     end
 
 end
