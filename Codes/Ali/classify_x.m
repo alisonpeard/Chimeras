@@ -1,11 +1,9 @@
 function class = classify_x(Y)
 % arg: matrix Y(t,x), t=time, x=node
-% need to add (rough) chaos classifier
-% made a function and edited bits of Xinzhu's code
 
     class = [];
     TOL1 = 1e-4; % for death states
-    TOL2 = 1e-4; % for differences between nodes
+    TOL2 = 1e-2; % for differences between nodes
     [M,N] = size(Y);
     corr_matrix = abs(corr(Y)); % absolute correlation between nodes
     
@@ -35,8 +33,12 @@ function class = classify_x(Y)
         class = "synchronised oscillation";
     % If there are any death states: CD / CSOD / AC and death
     elseif any(abs(delta) <= TOL1)
-        if all(abs(delta) <= TOL1)
-            class = "death state";
+        if all(abs(delta) <= TOL1) % death states
+            if range(Y(end,:) )<= TOL2
+                class = "oscillation death";
+            else
+                class = "chimera death";
+            end
         elseif range(delta_nonzero) <= TOL2
             class = "CSOD"; 
         elseif range(periods)<=TOL2
@@ -49,7 +51,7 @@ function class = classify_x(Y)
     elseif range(periods)<=TOL2
         class = "amplitude chimera";
     else 
-        class = "nonperiodic orbits";
+        class = "other";
     end
 
 end
