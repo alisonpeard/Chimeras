@@ -2,7 +2,7 @@ function A = lattice(n)
 
 % creates as nxn square lattice matrix
 
-A = zeros(n^2);
+A = zeros(n);
 for i = 1:n^2
     
     if i < n^2 && mod(i,n) ~= 0
