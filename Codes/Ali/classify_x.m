@@ -29,16 +29,12 @@ function class = classify_x(Y)
     end
     
     % if nodes are all spatiall correlated there are no chimeras
-    if all(corr_matrix(:,1) > 0.9)
+    if all(corr_matrix(:,1) > 0.99)
         class = "synchronised oscillation";
     % If there are any death states: CD / CSOD / AC and death
-    elseif any(abs(delta) <= TOL1)
-        if all(abs(delta) <= TOL1) % death states
-            if range(Y(end,:) )<= TOL2
-                class = "oscillation death";
-            else
-                class = "chimera death";
-            end
+    elseif any(abs(delta) <= TOL1) % death states
+        if all(abs(delta) <= TOL1)
+            class = "death state";
         elseif range(delta_nonzero) <= TOL2
             class = "CSOD"; 
         elseif range(periods)<=TOL2
