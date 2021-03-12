@@ -7,16 +7,16 @@ n = 100;
 % % 1(a). simulate chimera death
 % Y = ones(n,1)*rand(1,n);
 
-% 1(b). simulate oscillation death
-Y = 1e-4.*ones(n,1)*rand(1,n);
+% % 1(b). simulate oscillation death
+% Y = 1e-4.*ones(n,1)*rand(1,n);
 
 
 % %  % 2. simulate random (totally incoheren)
 % % Y = rand(n,n); 
 % 
-%  % 3. simulate sync / CSOD / amp_chim
-%  % Need to uncomment next line for all other simulations
-% Y = sin((1:n))'*ones(1,n);
+ % 3. simulate sync / CSOD / amp_chim
+ % Need to uncomment next line for all other simulations
+Y = sin((1:n))'*ones(1,n);
 
 % %  % 3(b) simulate CSOD
 % rnd = rand(1,n);
@@ -24,7 +24,7 @@ Y = 1e-4.*ones(n,1)*rand(1,n);
 % for i =1:length(rnd)
 %     Y(:,rnd(i)) = zeros(n,1);
 % end
-
+% 
 %  % 3(c) simulate amp_chim
 % ran1 = randi([1 n/2],1);
 % ran2 = randi([n/2 n],1);
@@ -53,7 +53,8 @@ Y = 1e-4.*ones(n,1)*rand(1,n);
 
 classx = classify_x(Y);
 imagesc(Y)
-title(classx)
-xlabel('node index')
+title(classx,'fontweight','bold','fontsize',16);
+xlabel('node index','fontsize',16);
+ylabel('Time','fontsize',16);
 
 %saveas(gcf,'classifier results/cooked example: ' + classx,'jpeg')

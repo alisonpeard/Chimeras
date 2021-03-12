@@ -28,7 +28,7 @@ function class = classify_x(Y)
         end
     end
     
-    % if nodes are all spatiall correlated there are no chimeras
+    % if nodes are all spatially correlated there are no chimeras
     if all(corr_matrix(:,1) > 0.99)
         class = "synchronised oscillation";
     % If there are any death states: CD / CSOD / AC and death

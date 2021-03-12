@@ -12,7 +12,7 @@ t0 = 0;
 tfinal = 10000;
 
 %rng(1)
-y0_vec = randi([0 0.4],1,2*n); 
+y0_vec = 0.4*rand(1,2*n); 
 
 %% visualise graph
 
@@ -37,7 +37,7 @@ plot(G);
 title("graph size n = " + string(n));
 hold off;
 
-
+pause;
 %% solve simple RM model using ode 45
 
 k = 0.5; % prey carrying capacity 0.5
