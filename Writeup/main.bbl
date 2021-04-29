@@ -1,0 +1,1043 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{banerjee2011self}{article}{}
+      \name{author}{2}{}{%
+        {{hash=19f181e27ab3c9ec4e33926986d9cec4}{%
+           family={Banerjee},
+           familyi={B\bibinitperiod},
+           given={Malay},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2c31553e9bfd41320e112f8f1622bf5a}{%
+           family={Petrovskii},
+           familyi={P\bibinitperiod},
+           given={Sergei},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c93c1a13ed0d8dc8da41e27dc801bfce}
+      \strng{fullhash}{c93c1a13ed0d8dc8da41e27dc801bfce}
+      \strng{bibnamehash}{c93c1a13ed0d8dc8da41e27dc801bfce}
+      \strng{authorbibnamehash}{c93c1a13ed0d8dc8da41e27dc801bfce}
+      \strng{authornamehash}{c93c1a13ed0d8dc8da41e27dc801bfce}
+      \strng{authorfullhash}{c93c1a13ed0d8dc8da41e27dc801bfce}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Theoretical Ecology}
+      \field{number}{1}
+      \field{title}{Self-organised spatial patterns and chaos in a ratio-dependent predator--prey system}
+      \field{volume}{4}
+      \field{year}{2011}
+      \field{pages}{37\bibrangedash 53}
+      \range{pages}{17}
+    \endentry
+    \entry{bera2017chimera}{article}{}
+      \name{author}{4}{}{%
+        {{hash=80dcaf7224128455e9b226859d9bd9e6}{%
+           family={Bera},
+           familyi={B\bibinitperiod},
+           given={Bidesh\bibnamedelima K},
+           giveni={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=59a210453d66132922e2ad7343604700}{%
+           family={Majhi},
+           familyi={M\bibinitperiod},
+           given={Soumen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9889560f4337b7040bb5133daf88a251}{%
+           family={Ghosh},
+           familyi={G\bibinitperiod},
+           given={Dibakar},
+           giveni={D\bibinitperiod}}}%
+        {{hash=9953b590e9695d8b2d67a1398177f3a5}{%
+           family={Perc},
+           familyi={P\bibinitperiod},
+           given={Matjaž},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{4300a04ce514c7bc23826206e08b8d8c}
+      \strng{fullhash}{69b5715a3e8cdbabe9f2bd9fdae64e39}
+      \strng{bibnamehash}{4300a04ce514c7bc23826206e08b8d8c}
+      \strng{authorbibnamehash}{4300a04ce514c7bc23826206e08b8d8c}
+      \strng{authornamehash}{4300a04ce514c7bc23826206e08b8d8c}
+      \strng{authorfullhash}{69b5715a3e8cdbabe9f2bd9fdae64e39}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EPL (Europhysics Letters)}
+      \field{number}{1}
+      \field{title}{Chimera states: effects of different coupling topologies}
+      \field{volume}{118}
+      \field{year}{2017}
+      \field{pages}{10001}
+      \range{pages}{1}
+    \endentry
+    \entry{transientsweb}{online}{}
+      \list{publisher}{1}{%
+        {University of Southampton}%
+      }
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{title}{Complexity Theory, Transient Dynamics}
+      \verb{urlraw}
+      \verb http://www.complexity.soton.ac.uk/theory/_Transient_Dynamics.php
+      \endverb
+      \verb{url}
+      \verb http://www.complexity.soton.ac.uk/theory/_Transient_Dynamics.php
+      \endverb
+      \warn{\item Entry 'transientsweb' (bibliography.bib): Invalid format '03-21' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{cottingham2000increased}{article}{}
+      \name{author}{3}{}{%
+        {{hash=da0a5504246f8a3e282b597be940a063}{%
+           family={Cottingham},
+           familyi={C\bibinitperiod},
+           given={KL},
+           giveni={K\bibinitperiod}}}%
+        {{hash=142449d3fa95fe1aa2bf72c4e990001c}{%
+           family={Rusak},
+           familyi={R\bibinitperiod},
+           given={JA},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cb459d958fc652cfece079faf3b1d55e}{%
+           family={Leavitt},
+           familyi={L\bibinitperiod},
+           given={PR},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{8c922359685ae8ede6fa15e7cc65c8c1}
+      \strng{fullhash}{8c922359685ae8ede6fa15e7cc65c8c1}
+      \strng{bibnamehash}{8c922359685ae8ede6fa15e7cc65c8c1}
+      \strng{authorbibnamehash}{8c922359685ae8ede6fa15e7cc65c8c1}
+      \strng{authornamehash}{8c922359685ae8ede6fa15e7cc65c8c1}
+      \strng{authorfullhash}{8c922359685ae8ede6fa15e7cc65c8c1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecology Letters}
+      \field{number}{4}
+      \field{title}{Increased ecosystem variability and reduced predictability following fertilisation: Evidence from palaeolimnology}
+      \field{volume}{3}
+      \field{year}{2000}
+      \field{pages}{340\bibrangedash 348}
+      \range{pages}{9}
+    \endentry
+    \entry{dutta2015}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f83f28a1c517ec9b16df41114f943a7b}{%
+           family={Dutta},
+           familyi={D\bibinitperiod},
+           given={Partha},
+           giveni={P\bibinitperiod}}}%
+        {{hash=77915185b0ba96a429870423e929c8cc}{%
+           family={Banerjee},
+           familyi={B\bibinitperiod},
+           given={Tanmoy},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{131968b9d4ea75e77facc08639661f27}
+      \strng{fullhash}{131968b9d4ea75e77facc08639661f27}
+      \strng{bibnamehash}{131968b9d4ea75e77facc08639661f27}
+      \strng{authorbibnamehash}{131968b9d4ea75e77facc08639661f27}
+      \strng{authornamehash}{131968b9d4ea75e77facc08639661f27}
+      \strng{authorfullhash}{131968b9d4ea75e77facc08639661f27}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review E}
+      \field{month}{10}
+      \field{title}{Spatial coexistence of synchronized oscillation and death: A chimeralike state}
+      \field{volume}{92}
+      \field{year}{2015}
+      \field{pages}{042919}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevE.92.042919
+      \endverb
+    \endentry
+    \entry{gilpin1972enriched}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c3e5e892c66938ce49aeb243364b42da}{%
+           family={Gilpin},
+           familyi={G\bibinitperiod},
+           given={Michael\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=d5639655f64eca2277400764c5cb155c}{%
+           family={Rosenzweig},
+           familyi={R\bibinitperiod},
+           given={Michael\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{528c638c32ee4fbae10a842d6bcc24e4}
+      \strng{fullhash}{528c638c32ee4fbae10a842d6bcc24e4}
+      \strng{bibnamehash}{528c638c32ee4fbae10a842d6bcc24e4}
+      \strng{authorbibnamehash}{528c638c32ee4fbae10a842d6bcc24e4}
+      \strng{authornamehash}{528c638c32ee4fbae10a842d6bcc24e4}
+      \strng{authorfullhash}{528c638c32ee4fbae10a842d6bcc24e4}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{4052}
+      \field{title}{Enriched predator-prey systems: theoretical stability}
+      \field{volume}{177}
+      \field{year}{1972}
+      \field{pages}{902\bibrangedash 904}
+      \range{pages}{3}
+    \endentry
+    \entry{gottwald2004new}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bbcb0de7b14d1afe6e036b58a386108d}{%
+           family={Gottwald},
+           familyi={G\bibinitperiod},
+           given={Georg\bibnamedelima A},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=98ee570905eb81c29d1932af6d69cdd7}{%
+           family={Melbourne},
+           familyi={M\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society}%
+      }
+      \strng{namehash}{f9ac8b1ed04095e4179e39d36e60d7c3}
+      \strng{fullhash}{f9ac8b1ed04095e4179e39d36e60d7c3}
+      \strng{bibnamehash}{f9ac8b1ed04095e4179e39d36e60d7c3}
+      \strng{authorbibnamehash}{f9ac8b1ed04095e4179e39d36e60d7c3}
+      \strng{authornamehash}{f9ac8b1ed04095e4179e39d36e60d7c3}
+      \strng{authorfullhash}{f9ac8b1ed04095e4179e39d36e60d7c3}
+      \field{extraname}{1}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Royal Society of London. Series A: Mathematical, Physical and Engineering Sciences}
+      \field{number}{2042}
+      \field{title}{A new test for chaos in deterministic systems}
+      \field{volume}{460}
+      \field{year}{2004}
+      \field{pages}{603\bibrangedash 611}
+      \range{pages}{9}
+    \endentry
+    \entry{gottwald20160}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bbcb0de7b14d1afe6e036b58a386108d}{%
+           family={Gottwald},
+           familyi={G\bibinitperiod},
+           given={Georg\bibnamedelima A},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=98ee570905eb81c29d1932af6d69cdd7}{%
+           family={Melbourne},
+           familyi={M\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{f9ac8b1ed04095e4179e39d36e60d7c3}
+      \strng{fullhash}{f9ac8b1ed04095e4179e39d36e60d7c3}
+      \strng{bibnamehash}{f9ac8b1ed04095e4179e39d36e60d7c3}
+      \strng{authorbibnamehash}{f9ac8b1ed04095e4179e39d36e60d7c3}
+      \strng{authornamehash}{f9ac8b1ed04095e4179e39d36e60d7c3}
+      \strng{authorfullhash}{f9ac8b1ed04095e4179e39d36e60d7c3}
+      \field{extraname}{2}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chaos detection and predictability}
+      \field{title}{The 0-1 test for chaos: A review}
+      \field{year}{2016}
+      \field{pages}{221\bibrangedash 247}
+      \range{pages}{27}
+    \endentry
+    \entry{hagen2012biodiversity}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=52075a4b320f08dcb412f7104d7b5b3f}{%
+           family={Hagen},
+           familyi={H\bibinitperiod},
+           given={Melanie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=0149ba8027cc0887e4060bdf1a52c140}{%
+           family={Kissling},
+           familyi={K\bibinitperiod},
+           given={W\bibnamedelima Daniel},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=57aef5b40d3c499b3f80df207989a4cf}{%
+           family={Rasmussen},
+           familyi={R\bibinitperiod},
+           given={Claus},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d2a3e255e48a60877bdd841e0c29c13e}{%
+           family={De\bibnamedelima Aguiar},
+           familyi={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Marcus\bibnamedelima AM},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=afbaa454098932fb881957e05c85e4da}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Lee\bibnamedelima E},
+           giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=e7c125785f446bf076b85ff6132f7737}{%
+           family={Carstensen},
+           familyi={C\bibinitperiod},
+           given={Daniel\bibnamedelima W},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=d39911761ce6890fda5fee1aaa481bd3}{%
+           family={Alves-Dos-Santos},
+           familyi={A\bibinithyphendelim D\bibinithyphendelim S\bibinitperiod},
+           given={Isabel},
+           giveni={I\bibinitperiod}}}%
+        {{hash=78abb23bdef7c6493cf600d5e1d85212}{%
+           family={Dupont},
+           familyi={D\bibinitperiod},
+           given={Yoko\bibnamedelima L},
+           giveni={Y\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=80309e4a4df8477092b7f3be0b5eefca}{%
+           family={Edwards},
+           familyi={E\bibinitperiod},
+           given={Francois\bibnamedelima K},
+           giveni={F\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=0709c43e990ab50bae10978afde4c4d0}{%
+           family={Genini},
+           familyi={G\bibinitperiod},
+           given={Julieta},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{b3815817dccb5e5b8d8e2345870b420d}
+      \strng{fullhash}{2e70ae878b1cad729255a168f3a2ba9e}
+      \strng{bibnamehash}{b3815817dccb5e5b8d8e2345870b420d}
+      \strng{authorbibnamehash}{b3815817dccb5e5b8d8e2345870b420d}
+      \strng{authornamehash}{b3815817dccb5e5b8d8e2345870b420d}
+      \strng{authorfullhash}{2e70ae878b1cad729255a168f3a2ba9e}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in ecological research}
+      \field{title}{Biodiversity, species interactions and ecological networks in a fragmented world}
+      \field{volume}{46}
+      \field{year}{2012}
+      \field{pages}{89\bibrangedash 210}
+      \range{pages}{122}
+    \endentry
+    \entry{hansen2020moran}{article}{}
+      \name{author}{4}{}{%
+        {{hash=abc02cfe243caa9ac5b1036627de0b68}{%
+           family={Hansen},
+           familyi={H\bibinitperiod},
+           given={Brage\bibnamedelima B},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=d66c1037a7038feec0de3d576a98f592}{%
+           family={Gr{ø}tan},
+           familyi={G\bibinitperiod},
+           given={Vidar},
+           giveni={V\bibinitperiod}}}%
+        {{hash=3f1d920168564432802b813feefdf394}{%
+           family={Herfindal},
+           familyi={H\bibinitperiod},
+           given={Ivar},
+           giveni={I\bibinitperiod}}}%
+        {{hash=390278f3e66518c7f33297766dbe3d6a}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Aline\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{2c5b328a66425a28d9f184f8cbbad0e9}
+      \strng{fullhash}{29fce40e75ebbbbed35e303551c0ce11}
+      \strng{bibnamehash}{2c5b328a66425a28d9f184f8cbbad0e9}
+      \strng{authorbibnamehash}{2c5b328a66425a28d9f184f8cbbad0e9}
+      \strng{authornamehash}{2c5b328a66425a28d9f184f8cbbad0e9}
+      \strng{authorfullhash}{29fce40e75ebbbbed35e303551c0ce11}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecography}
+      \field{number}{11}
+      \field{title}{The Moran effect revisited: spatial population synchrony under global warming}
+      \field{volume}{43}
+      \field{year}{2020}
+      \field{pages}{1591\bibrangedash 1602}
+      \range{pages}{12}
+    \endentry
+    \entry{hastings2004transients}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3ef66b2c3dacd04fd85ecf953dbfdf70}{%
+           family={Hastings},
+           familyi={H\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{3ef66b2c3dacd04fd85ecf953dbfdf70}
+      \strng{fullhash}{3ef66b2c3dacd04fd85ecf953dbfdf70}
+      \strng{bibnamehash}{3ef66b2c3dacd04fd85ecf953dbfdf70}
+      \strng{authorbibnamehash}{3ef66b2c3dacd04fd85ecf953dbfdf70}
+      \strng{authornamehash}{3ef66b2c3dacd04fd85ecf953dbfdf70}
+      \strng{authorfullhash}{3ef66b2c3dacd04fd85ecf953dbfdf70}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Trends in Ecology \& Evolution}
+      \field{number}{1}
+      \field{title}{Transients: the key to long-term ecological understanding?}
+      \field{volume}{19}
+      \field{year}{2004}
+      \field{pages}{39\bibrangedash 45}
+      \range{pages}{7}
+    \endentry
+    \entry{hastings2018transient}{article}{}
+      \name{author}{10}{}{%
+        {{hash=3ef66b2c3dacd04fd85ecf953dbfdf70}{%
+           family={Hastings},
+           familyi={H\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=86fd2a0f456b0f0a1826e1e000762c01}{%
+           family={Abbott},
+           familyi={A\bibinitperiod},
+           given={Karen\bibnamedelima C.},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=e6259e8f7d4305731894ee360bdac28a}{%
+           family={Cuddington},
+           familyi={C\bibinitperiod},
+           given={Kim},
+           giveni={K\bibinitperiod}}}%
+        {{hash=433b747bc5793e24ac1715fb82de5a2b}{%
+           family={Francis},
+           familyi={F\bibinitperiod},
+           given={Tessa},
+           giveni={T\bibinitperiod}}}%
+        {{hash=fc08a31278bae3f7fe4509fba43f6d68}{%
+           family={Gellner},
+           familyi={G\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod}}}%
+        {{hash=93ef26f6a28d098d7e10fee3016a3ac8}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Ying-Cheng},
+           giveni={Y\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=e60f90a1947dcb4c956e69438d6e6199}{%
+           family={Morozov},
+           familyi={M\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2c31553e9bfd41320e112f8f1622bf5a}{%
+           family={Petrovskii},
+           familyi={P\bibinitperiod},
+           given={Sergei},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b2dce135d2b164e8337c8b5a951d20f8}{%
+           family={Scranton},
+           familyi={S\bibinitperiod},
+           given={Katherine},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f3afaff527b3baf37fdfa7210f5b8fb3}{%
+           family={Zeeman},
+           familyi={Z\bibinitperiod},
+           given={Mary\bibnamedelima Lou},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{72677287edcc47db556c239692e3c2d9}
+      \strng{fullhash}{1984ee3dae41d53fe5a047092aa180cd}
+      \strng{bibnamehash}{72677287edcc47db556c239692e3c2d9}
+      \strng{authorbibnamehash}{72677287edcc47db556c239692e3c2d9}
+      \strng{authornamehash}{72677287edcc47db556c239692e3c2d9}
+      \strng{authorfullhash}{1984ee3dae41d53fe5a047092aa180cd}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{6406}
+      \field{title}{Transient phenomena in ecology}
+      \field{volume}{361}
+      \field{year}{2018}
+    \endentry
+    \entry{haugland2021changing}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f083072eb39d5d164a9a4ea7486aaf14}{%
+           family={Haugland},
+           familyi={H\bibinitperiod},
+           given={Sindre\bibnamedelima W},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{f083072eb39d5d164a9a4ea7486aaf14}
+      \strng{fullhash}{f083072eb39d5d164a9a4ea7486aaf14}
+      \strng{bibnamehash}{f083072eb39d5d164a9a4ea7486aaf14}
+      \strng{authorbibnamehash}{f083072eb39d5d164a9a4ea7486aaf14}
+      \strng{authornamehash}{f083072eb39d5d164a9a4ea7486aaf14}
+      \strng{authorfullhash}{f083072eb39d5d164a9a4ea7486aaf14}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2102.05515}
+      \field{title}{The changing notion of chimera states, a critical review}
+      \field{year}{2021}
+    \endentry
+    \entry{jensen2005paradoxes}{article}{}
+      \name{author}{2}{}{%
+        {{hash=9c10923e861f1eaeccb5cfdf38e49099}{%
+           family={Jensen},
+           familyi={J\bibinitperiod},
+           given={Christopher\bibnamedelima XJ},
+           giveni={C\bibinitperiod\bibinitdelim X\bibinitperiod}}}%
+        {{hash=a95c796d0fd16a4a78b7cda5a40483c1}{%
+           family={Ginzburg},
+           familyi={G\bibinitperiod},
+           given={Lev\bibnamedelima R},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7117a1676cc42a20c0c1784d0ccd0fc3}
+      \strng{fullhash}{7117a1676cc42a20c0c1784d0ccd0fc3}
+      \strng{bibnamehash}{7117a1676cc42a20c0c1784d0ccd0fc3}
+      \strng{authorbibnamehash}{7117a1676cc42a20c0c1784d0ccd0fc3}
+      \strng{authornamehash}{7117a1676cc42a20c0c1784d0ccd0fc3}
+      \strng{authorfullhash}{7117a1676cc42a20c0c1784d0ccd0fc3}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecological Modelling}
+      \field{number}{1}
+      \field{title}{Paradoxes or theoretical failures? The jury is still out}
+      \field{volume}{188}
+      \field{year}{2005}
+      \field{pages}{3\bibrangedash 14}
+      \range{pages}{12}
+    \endentry
+    \entry{lambiottenotes}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=a0bc3d83c54bda6a078936b2d87d6c9f}{%
+           family={Lambiotte},
+           familyi={L\bibinitperiod},
+           given={Renaud},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {University of Oxford}%
+      }
+      \strng{namehash}{a0bc3d83c54bda6a078936b2d87d6c9f}
+      \strng{fullhash}{a0bc3d83c54bda6a078936b2d87d6c9f}
+      \strng{bibnamehash}{a0bc3d83c54bda6a078936b2d87d6c9f}
+      \strng{authorbibnamehash}{a0bc3d83c54bda6a078936b2d87d6c9f}
+      \strng{authornamehash}{a0bc3d83c54bda6a078936b2d87d6c9f}
+      \strng{authorfullhash}{a0bc3d83c54bda6a078936b2d87d6c9f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{C5.4 Networks Lecture Notes}
+      \field{year}{2021}
+    \endentry
+    \entry{laurance2011}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=00f39eac2b0bd8e4b1c66ba94eaa5930}{%
+           family={Laurance},
+           familyi={L\bibinitperiod},
+           given={William\bibnamedelima F.},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=fe92bfd292debcacf9ed111ca6f921df}{%
+           family={Camargo},
+           familyi={C\bibinitperiod},
+           given={José\bibnamedelima LC},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=17df965d646f217b9cb379e5e9974582}{%
+           family={Luizão},
+           familyi={L\bibinitperiod},
+           given={Regina\bibnamedelima CC},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=9483aef77b2210289b8d132bdedfe429}{%
+           family={Laurance},
+           familyi={L\bibinitperiod},
+           given={Susan\bibnamedelima G},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=16d4b048c6729d02ed408d1fe55f47a1}{%
+           family={Pimm},
+           familyi={P\bibinitperiod},
+           given={Stuart\bibnamedelima L.},
+           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=73e2f42159dea079cd0c3db095878e13}{%
+           family={Bruna},
+           familyi={B\bibinitperiod},
+           given={Emilio\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ece8ae9295411ff2bd7f30d6d624002d}{%
+           family={Stouffer},
+           familyi={S\bibinitperiod},
+           given={Philip\bibnamedelima C.},
+           giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=0e1c3c52fe91d0e450bef9ca839bba79}{%
+           family={Williamson},
+           familyi={W\bibinitperiod},
+           given={G.\bibnamedelimi Bruce},
+           giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=e25dbffaf3ac49c407a376c57e99171f}{%
+           family={Benı́tez-Malvido},
+           familyi={B\bibinithyphendelim M\bibinitperiod},
+           given={Julieta},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6df9d6fd36861102602f2df6d604d7d5}{%
+           family={Vasconcelos},
+           familyi={V\bibinitperiod},
+           given={Heraldo\bibnamedelima L.},
+           giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{467bfc751ff8a8550da2452fc3893249}
+      \strng{fullhash}{3e9437d8eb09a0cfe993af8137ced0b5}
+      \strng{bibnamehash}{467bfc751ff8a8550da2452fc3893249}
+      \strng{authorbibnamehash}{467bfc751ff8a8550da2452fc3893249}
+      \strng{authornamehash}{467bfc751ff8a8550da2452fc3893249}
+      \strng{authorfullhash}{3e9437d8eb09a0cfe993af8137ced0b5}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biological conservation}
+      \field{number}{1}
+      \field{title}{The fate of Amazonian forest fragments: a 32-year investigation}
+      \field{volume}{144}
+      \field{year}{2011}
+      \field{pages}{56\bibrangedash 67}
+      \range{pages}{12}
+    \endentry
+    \entry{leidner2010does}{article}{}
+      \name{author}{3}{}{%
+        {{hash=56bcccdc25ddd8cc4b6b42ef7328f9c2}{%
+           family={Leidner},
+           familyi={L\bibinitperiod},
+           given={Allison\bibnamedelima K},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=9005a4b8d5b4dbdfaf93815c033825e5}{%
+           family={Haddad},
+           familyi={H\bibinitperiod},
+           given={Nick\bibnamedelima M},
+           giveni={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e5aa7b7979bec231a985a50f4f8a3488}{%
+           family={Lovejoy},
+           familyi={L\bibinitperiod},
+           given={Thomas\bibnamedelima E},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{826e51dc80bbc2e52edf84ef2b5079f3}
+      \strng{fullhash}{826e51dc80bbc2e52edf84ef2b5079f3}
+      \strng{bibnamehash}{826e51dc80bbc2e52edf84ef2b5079f3}
+      \strng{authorbibnamehash}{826e51dc80bbc2e52edf84ef2b5079f3}
+      \strng{authornamehash}{826e51dc80bbc2e52edf84ef2b5079f3}
+      \strng{authorfullhash}{826e51dc80bbc2e52edf84ef2b5079f3}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS One}
+      \field{number}{3}
+      \field{title}{Does tropical forest fragmentation increase long-term variability of butterfly communities?}
+      \field{volume}{5}
+      \field{year}{2010}
+      \field{pages}{e9534}
+      \range{pages}{-1}
+    \endentry
+    \entry{lucey2014}{article}{}
+      \name{author}{10}{}{%
+        {{hash=af4817cb880e023fd5a0b11544c7a6ce}{%
+           family={Lucey},
+           familyi={L\bibinitperiod},
+           given={Jennifer\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ced6f3f114e89afb675703a2cc20210f}{%
+           family={Tawatao},
+           familyi={T\bibinitperiod},
+           given={Noel},
+           giveni={N\bibinitperiod}}}%
+        {{hash=e7ed7c8932616b90a119897eec48d600}{%
+           family={Senior},
+           familyi={S\bibinitperiod},
+           given={Michael\bibnamedelima JM},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=8e28ec1321a299a02d593dbe13f28fa5}{%
+           family={Chey},
+           familyi={C\bibinitperiod},
+           given={Vun\bibnamedelima Khen},
+           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=6fcfb26d92136fa51ad5720ec8945557}{%
+           family={Benedick},
+           familyi={B\bibinitperiod},
+           given={Suzan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=af70aa2f067130844fc863896b2a66a3}{%
+           family={Hamer},
+           familyi={H\bibinitperiod},
+           given={Keith\bibnamedelima C},
+           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=56673244ccaab04b78336705e4aee41f}{%
+           family={Woodcock},
+           familyi={W\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=354f4a8b0c31ac3629b2b7392dfd1531}{%
+           family={Newton},
+           familyi={N\bibinitperiod},
+           given={Robert\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ae214eb2b8df18f7a801976a5307d2db}{%
+           family={Bottrell},
+           familyi={B\bibinitperiod},
+           given={Simon\bibnamedelima H},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=62281d9619dbb7fc91dadcd9ec4d0d0f}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jane\bibnamedelima K},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{d551d4536d67b7b274400bda20dfa44a}
+      \strng{fullhash}{f4412639207380d72de1041f2dbd1076}
+      \strng{bibnamehash}{d551d4536d67b7b274400bda20dfa44a}
+      \strng{authorbibnamehash}{d551d4536d67b7b274400bda20dfa44a}
+      \strng{authornamehash}{d551d4536d67b7b274400bda20dfa44a}
+      \strng{authorfullhash}{f4412639207380d72de1041f2dbd1076}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biological conservation}
+      \field{title}{Tropical forest fragments contribute to species richness in adjacent oil palm plantations}
+      \field{volume}{169}
+      \field{year}{2014}
+      \field{pages}{268\bibrangedash 276}
+      \range{pages}{9}
+    \endentry
+    \entry{meijaard2018oil}{article}{}
+      \name{author}{7}{}{%
+        {{hash=f16bc2dc20e6fa86db1dbedfe977c830}{%
+           family={Meijaard},
+           familyi={M\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=982ca6b4267edb982b2959328892abd1}{%
+           family={Garcia-Ulloa},
+           familyi={G\bibinithyphendelim U\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fea918d77045d5637e04d8b6082c9012}{%
+           family={Sheil},
+           familyi={S\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1a49ea28dd0afce6295327ac197ad9b2}{%
+           family={Wich},
+           familyi={W\bibinitperiod},
+           given={SA},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e748017b40cbf521c138058834842c47}{%
+           family={Carlson},
+           familyi={C\bibinitperiod},
+           given={KM},
+           giveni={K\bibinitperiod}}}%
+        {{hash=798adf6838d52a7131bfd515e6bbf8e2}{%
+           family={Juffe-Bignoli},
+           familyi={J\bibinithyphendelim B\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f4a93d90512d3cfa38b6a8a3fa49eb4d}{%
+           family={Brooks},
+           familyi={B\bibinitperiod},
+           given={TM},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {International Union for Conservation of Nature}%
+        {Natural Resources (IUCN)}%
+      }
+      \strng{namehash}{8853f0c3f153f4a64afe2616732877bb}
+      \strng{fullhash}{f4bc25b8622eeb2b98d58eba70255f75}
+      \strng{bibnamehash}{8853f0c3f153f4a64afe2616732877bb}
+      \strng{authorbibnamehash}{8853f0c3f153f4a64afe2616732877bb}
+      \strng{authornamehash}{8853f0c3f153f4a64afe2616732877bb}
+      \strng{authorfullhash}{f4bc25b8622eeb2b98d58eba70255f75}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Oil palm and biodiversity: A situation analysis by the IUCN Oil Palm Task Force}
+      \field{year}{2018}
+    \endentry
+    \entry{rosenzweig1963}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d5639655f64eca2277400764c5cb155c}{%
+           family={Rosenzweig},
+           familyi={R\bibinitperiod},
+           given={Michael\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=aef052a7d210740d58ed8c270f8f76bf}{%
+           family={MacArthur},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Science Press}%
+      }
+      \strng{namehash}{538e19110c2f709e235d2e85ba06f6d9}
+      \strng{fullhash}{538e19110c2f709e235d2e85ba06f6d9}
+      \strng{bibnamehash}{538e19110c2f709e235d2e85ba06f6d9}
+      \strng{authorbibnamehash}{538e19110c2f709e235d2e85ba06f6d9}
+      \strng{authornamehash}{538e19110c2f709e235d2e85ba06f6d9}
+      \strng{authorfullhash}{538e19110c2f709e235d2e85ba06f6d9}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Naturalist}
+      \field{number}{895}
+      \field{title}{Graphical representation and stability conditions of predator-prey interactions}
+      \field{volume}{97}
+      \field{year}{1963}
+      \field{pages}{209\bibrangedash 223}
+      \range{pages}{15}
+    \endentry
+    \entry{scriven2019testing}{article}{}
+      \name{author}{7}{}{%
+        {{hash=153caf41de34c94db7862ca1a0e4c4c5}{%
+           family={Scriven},
+           familyi={S\bibinitperiod},
+           given={Sarah\bibnamedelima A},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=0eea5c98538cf3907a4ec13afb32a07b}{%
+           family={Carlson},
+           familyi={C\bibinitperiod},
+           given={Kimberly\bibnamedelima M},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6175cea724846db2ad1de840051fff0d}{%
+           family={Hodgson},
+           familyi={H\bibinitperiod},
+           given={Jenny\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=92298e674e80ee98a5a7eb45b2a69f93}{%
+           family={McClean},
+           familyi={M\bibinitperiod},
+           given={Colin\bibnamedelima J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=da50802cd383210fdd1762b6a8bb6f4f}{%
+           family={Heilmayr},
+           familyi={H\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=af4817cb880e023fd5a0b11544c7a6ce}{%
+           family={Lucey},
+           familyi={L\bibinitperiod},
+           given={Jennifer\bibnamedelima M},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=62281d9619dbb7fc91dadcd9ec4d0d0f}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Jane\bibnamedelima K},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{10a6267d854be920e9abb923a545393a}
+      \strng{fullhash}{a4e65d09a40aec776fb12c4323dff736}
+      \strng{bibnamehash}{10a6267d854be920e9abb923a545393a}
+      \strng{authorbibnamehash}{10a6267d854be920e9abb923a545393a}
+      \strng{authornamehash}{10a6267d854be920e9abb923a545393a}
+      \strng{authorfullhash}{a4e65d09a40aec776fb12c4323dff736}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Ecology}
+      \field{number}{10}
+      \field{title}{Testing the benefits of conservation set-asides for improved habitat connectivity in tropical agricultural landscapes}
+      \field{volume}{56}
+      \field{year}{2019}
+      \field{pages}{2274\bibrangedash 2285}
+      \range{pages}{12}
+    \endentry
+    \entry{terborgh2001ecological}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{hash=1737b77a96d20075b13dff5917cb78ab}{%
+           family={Terborgh},
+           familyi={T\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1c5d089a0079ff124019971697fdf8aa}{%
+           family={Lopez},
+           familyi={L\bibinitperiod},
+           given={Lawrence},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e2238f9ffa2f6538d646b23ace880d31}{%
+           family={Nuñez},
+           familyi={N\bibinitperiod},
+           given={Percy},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e187e5c0f9acf8163246c60f6a938105}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={Madhu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=89894457df83caed26a820ebc3659f85}{%
+           family={Shahabuddin},
+           familyi={S\bibinitperiod},
+           given={Ghazala},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f4d2d1a615401288e9e33921ea68ecf8}{%
+           family={Orihuela},
+           familyi={O\bibinitperiod},
+           given={Gabriela},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2e717a95439c7e135b376ed2bed709c3}{%
+           family={Riveros},
+           familyi={R\bibinitperiod},
+           given={Mailen},
+           giveni={M\bibinitperiod}}}%
+        {{hash=123986e5059d8b28bd07944157f9b0ee}{%
+           family={Ascanio},
+           familyi={A\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod}}}%
+        {{hash=60b643e338f2ff7c56b5fe0924cd4bde}{%
+           family={Adler},
+           familyi={A\bibinitperiod},
+           given={Greg\bibnamedelima H},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=7d2dcd4c5805517db87d7e42bfce5e76}{%
+           family={Lambert},
+           familyi={L\bibinitperiod},
+           given={Thomas\bibnamedelima D},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{9863e176822b1eb11d855b3f9c00d94b}
+      \strng{fullhash}{d40391bf4eb76e5a3455dcd41ad578da}
+      \strng{bibnamehash}{9863e176822b1eb11d855b3f9c00d94b}
+      \strng{authorbibnamehash}{9863e176822b1eb11d855b3f9c00d94b}
+      \strng{authornamehash}{9863e176822b1eb11d855b3f9c00d94b}
+      \strng{authorfullhash}{d40391bf4eb76e5a3455dcd41ad578da}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{5548}
+      \field{title}{Ecological meltdown in predator-free forest fragments}
+      \field{volume}{294}
+      \field{year}{2001}
+      \field{pages}{1923\bibrangedash 1926}
+      \range{pages}{4}
+    \endentry
+    \entry{zakharova2015}{article}{}
+      \name{author}{3}{}{%
+        {{hash=bd68bfccb51beeb2574f7910bae6021e}{%
+           family={Zakharova},
+           familyi={Z\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8323ed61007b4a6e813e9a85f1d21bd6}{%
+           family={Kapeller},
+           familyi={K\bibinitperiod},
+           given={Marie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3a9de2cc5de173eaac20a5fb3c4fa354}{%
+           family={Schöll},
+           familyi={S\bibinitperiod},
+           given={Eckehard},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{e86b5f7ac7de718c1a4d487bd2af381a}
+      \strng{fullhash}{e86b5f7ac7de718c1a4d487bd2af381a}
+      \strng{bibnamehash}{e86b5f7ac7de718c1a4d487bd2af381a}
+      \strng{authorbibnamehash}{e86b5f7ac7de718c1a4d487bd2af381a}
+      \strng{authornamehash}{e86b5f7ac7de718c1a4d487bd2af381a}
+      \strng{authorfullhash}{e86b5f7ac7de718c1a4d487bd2af381a}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{month}{03}
+      \field{title}{Amplitude chimeras and chimera death in dynamical networks}
+      \field{volume}{727}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1088/1742-6596/727/1/012018
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

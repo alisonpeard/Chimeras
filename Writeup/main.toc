@@ -1,0 +1,37 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}The Rosenzweig MacArthur Model}{3}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.0.1}The paradox of enrichment}{4}{subsubsection.2.0.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Extension to a system of populations}{4}{subsection.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.1}A note on visualising network dynamics}{5}{subsubsection.2.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Emerging Incoherence and Chimeras}{5}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}The paradox of enrichment (revisited)}{5}{subsection.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Transient dynamics}{5}{subsection.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Chimeras}{6}{subsection.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.1}Using a classifier}{7}{subsubsection.3.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Exploring Network Topologies}{7}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Looking for Chaotic Behaviour}{9}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Case Study: Fragmentation in the Amazon rainforest}{10}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Progressive fragmentation}{14}{subsection.6.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2}Exploring parameter space}{15}{subsection.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A}Classifier algorithm and code}{17}{appendix.A}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B}Looking for Chaos}{18}{appendix.B}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {C}Linear Stability Analysis}{19}{appendix.C}%
